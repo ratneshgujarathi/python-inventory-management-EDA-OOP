@@ -28,7 +28,7 @@ Dispatcher: Routes the event from the producer to all connected consumers.
 ## Project Structure
 ```
 ├── main.py          # Simulates the application
-├── events.py        # Defines events and signals
+├── event_manager.py        # Defines events and signals
 ├── consumers.py     # Implements event consumers
 ```
 
